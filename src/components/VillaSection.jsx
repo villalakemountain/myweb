@@ -10,7 +10,7 @@ const VillaSection = () => {
     {
       id: 1,
       image: LakeHouse,
-      villaName: "Lake House (Ground)",
+      villaName: "Ground Villa",
       description: [
         "Your private lakeside retreat with direct lake access, secluded garden, and intimate setting for three guests. Perfect for couples seeking tranquil mornings by the water and peaceful evenings in your own backyard sanctuary."
       ],
@@ -20,9 +20,19 @@ const VillaSection = () => {
     {
       id: 2,
       image: TreeHouse,
-      villaName: "Lake House (Upper)",
+      villaName: "Upper Villa",
       description: [
         "Spacious elevated escape with breath taking lake and horizon views from three private balconies. Accommodates six guests with a dedicated living room - ideal for families and groups wanting spectacular sunsets and endless vistas."
+      ],
+      altText: "Mountain villa with panoramic views",
+      route: "/villa/upper"
+    },
+    {
+      id: 3,
+      image: TreeHouse,
+      villaName: "Entire Villa",
+      description: [
+        "change me"
       ],
       altText: "Mountain villa with panoramic views",
       route: "/villa/upper"
@@ -52,7 +62,8 @@ const VillaSection = () => {
             </div>
           </div>
           {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"> */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 justify-items-center max-w-4xl mx-auto">
+          {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-8 justify-items-center max-w-4xl mx-auto"> */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {villas.map((villa) => (
               <VillaCard
                 key={villa.id}

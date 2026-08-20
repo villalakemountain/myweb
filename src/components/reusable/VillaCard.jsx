@@ -6,8 +6,9 @@ const VillaCard = ({
   onLearnMore = () => {}
 }) => {
   return (
-    <div className="max-w-lg mx-auto bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-shadow duration-300">
-      {/* Image Section */}
+    // <div className="max-w-lg mx-auto bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-shadow duration-300">
+    <div className="w-full bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-shadow duration-300">  
+    {/* Image Section */}
       <div className="relative h-64 overflow-hidden">
         <img 
           src={image}

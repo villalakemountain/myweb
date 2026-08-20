@@ -89,7 +89,7 @@ const GroundVilla = () => {
     <div className="min-h-screen bg-white">
       <VillaNav currentPage="ground" />
       <VillaHeader 
-        title="Lake House (Ground)" 
+        title="Ground Villa" 
         descriptions={descriptions}
         villaType="ground"
       />

@@ -79,7 +79,7 @@ const UpperVilla = () => {
     <div className="min-h-screen bg-white">
       <VillaNav currentPage="upper" />
       <VillaHeader 
-        title="Lake House (Upper Villa)" 
+        title="Upper Villa" 
         descriptions={descriptions}
         villaType="upper"
       />

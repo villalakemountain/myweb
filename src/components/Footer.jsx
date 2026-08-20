@@ -84,13 +84,20 @@ const Footer = () => {
                 href="/villa/upper"
                 className="block text-gray-300 hover:text-white transition-colors text-sm"
               >
-                Lake House (Upper Villa)
+                Upper Villa
               </a>
               <a
                 href="/villa/ground"
                 className="block text-gray-300 hover:text-white transition-colors text-sm"
               >
-                Lake House (Ground Villa)
+                Ground Villa
+              </a>
+              {/* check the followng link again */}
+              <a
+                href="/villa/entire" 
+                className="block text-gray-300 hover:text-white transition-colors text-sm"
+              >
+                Entire Villa
               </a>
             </div>
           </div>
